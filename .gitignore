@@ -1,0 +1,40 @@
+# Build results & Binaries
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / VS Code / Rider / JetBrains
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+*.sln.docstates
+
+# .NET & Roslyn caches
+.dotnet/
+.local/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+Library/
+
+# Generated benchmark files (optional/local)
+benchmark_sample_*.pdf
+
+private/
